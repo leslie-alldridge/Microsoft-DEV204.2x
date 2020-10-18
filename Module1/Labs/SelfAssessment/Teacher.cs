@@ -4,9 +4,10 @@ namespace SelfAssessment
 {
     class Teacher
     {
-        static void Main(string[] args)
+        public string _name;
+        public Teacher(string name)
         {
-            Console.WriteLine("Hello World!");
+            this._name = name;
         }
     }
 }
